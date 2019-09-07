@@ -542,3 +542,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.07-15.37.09:369][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2019.09.07-15.37.12:748][401]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.09.07-15.40.20:394][878]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.09.07-15.47.47:136][875]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content' is outside repository
+[2019.09.07-15.47.47:227][875]EditorErrors: Warning: No assets to check in!
