@@ -544,3 +544,85 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.09.07-15.21.11:349][173]LogAssetRegistry: Asset discovery search completed in 24.8182 seconds
 [2019.09.07-15.21.11:354][173]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
 [2019.09.07-15.21.11:354][173]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000063 seconds (updated 0 objects)
+[2019.09.07-15.29.35:183][772]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2019.09.07-15.29.35:183][772]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2019.09.07-15.29.35:183][772]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2019.09.07-15.29.35:183][772]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2019.09.07-15.29.35:183][772]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2019.09.07-15.29.35:184][772]LogWindows: Warning: URL: C:\Users\NikodemKaźmierczak\AppData\Local/Programs/Git/cmd/git.exe version
+[2019.09.07-15.29.35:184][772]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2019.09.07-15.29.35:184][772]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2019.09.07-15.29.35:184][772]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2019.09.07-15.29.35:184][772]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2019.09.07-15.29.35:184][772]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2019.09.07-15.29.35:184][772]LogWindows: Warning: URL: C:\Users\NikodemKaźmierczak\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2019.09.07-15.29.35:184][772]LogWindows: Warning: CreateProc failed: Nie można odnaleźć określonego pliku. (0x00000002)
+[2019.09.07-15.29.35:184][772]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2019.09.07-15.31.14:746][329]LogSlate: Window 'Source Control Login' being destroyed
+[2019.09.07-15.31.35:321][853]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.09.07-15.31.44:341][672]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.07-15.32.09:296][138]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.07-15.32.09:490][138]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Moje Pliki\Blender\hexagon.fbx)
+[2019.09.07-15.32.09:747][138]LogFbx: Loading FBX Scene from D:\Moje Pliki\Blender\hexagon.fbx
+[2019.09.07-15.32.09:785][138]LogFbx: FBX Scene Loaded Succesfully
+[2019.09.07-15.32.30:915][138]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.09.07-15.32.31:126][138]LogFbx: Display: Triangulating static mesh Plane
+[2019.09.07-15.32.31:189][138]LogStaticMesh: Building static mesh hexagon...
+[2019.09.07-15.32.31:298][138]LogStaticMesh: Built static mesh [0.10s] /Game/Models/hexagon.hexagon
+[2019.09.07-15.32.31:340][138]LogStaticMesh: Warning: hexagon has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2019.09.07-15.32.31:340][138]LogStaticMesh: Warning: hexagon has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2019.09.07-15.32.31:400][138]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.09.07-15.32.31:400][138]FBXImport: Warning: hexagon has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2019.09.07-15.32.31:400][138]FBXImport: Warning: hexagon has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2019.09.07-15.32.34:676][456]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.09.07-15.32.34:676][456]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.038
+[2019.09.07-15.32.34:703][456]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Models/hexagon] ([1] browsable assets)...
+[2019.09.07-15.32.34:728][456]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Models/hexagon.hexagon]
+[2019.09.07-15.32.34:728][456]OBJ SavePackage: Finished generating thumbnails for package [/Game/Models/hexagon]
+[2019.09.07-15.32.34:729][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/hexagon" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Models/hexagon_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.09.07-15.32.34:834][456]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/hexagon_Auto15F092E884FA2D911FEE3FBB84619C1CB.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Models/hexagon_Auto1.uasset'
+[2019.09.07-15.32.34:846][456]LogFileHelpers: Auto-saving content packages took 0.168
+[2019.09.07-15.32.36:744][679]LogSlate: Window 'Message Log' being destroyed
+[2019.09.07-15.32.36:748][679]LogSlate: Window 'Message Log' being destroyed
+[2019.09.07-15.32.37:571][767]LogActorFactory: Actor Factory created hexagon
+[2019.09.07-15.32.38:293][826]LogActorFactory: Actor Factory created hexagon
+[2019.09.07-15.32.38:818][827]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.09.07-15.32.40:509][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.07-15.32.44:494][472]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content' is outside repository
+[2019.09.07-15.32.44:633][472]EditorErrors: Warning: No assets to check in!
+[2019.09.07-15.32.50:297][100]LogSlate: Window 'Message Log' being destroyed
+[2019.09.07-15.32.50:300][100]LogSlate: Window 'Message Log' being destroyed
+[2019.09.07-15.33.06:897][ 52]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content' is outside repository
+[2019.09.07-15.33.06:979][ 52]EditorErrors: Warning: No assets to check in!
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/EngineLightProfiles: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/EngineLightProfiles' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions02/3PointLevels.uasset' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/AbberatedBlur-Texture.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/AbberatedBlur-Texture.uasset' is outside repository
+[2019.09.07-15.33.14:649][887]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/ActiveActor.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Plugins/Enterprise/DatasmithContent/Content/Blueprints/FBXImporter/ActiveActor.uasset' is outside repository
+[2019.09.07-15.33.15:960][ 28]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.09.07-15.33.23:869][ 28]LogSlate: Window 'Save Level As' being destroyed
+[2019.09.07-15.33.24:042][ 46]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.09.07-15.33.25:371][192]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.09.07-15.33.33:489][192]LogSlate: Window 'Save Level As' being destroyed
+[2019.09.07-15.33.33:540][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2019.09.07-15.33.33:541][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.09.07-15.33.33:574][192]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2019.09.07-15.33.34:067][192]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/ModelsBDB0D9D947372A17648252B12ACAFBBC.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models.umap'
+[2019.09.07-15.33.34:361][192]LogFileHelpers: Saving map 'Models' took 0.868
+[2019.09.07-15.33.34:365][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/hexagon" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models/hexagon.uasset" SILENT=true
+[2019.09.07-15.33.34:375][192]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/hexagon2D08A249480EDFCA9292FB999B490C30.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models/hexagon.uasset'
+[2019.09.07-15.33.34:739][199]SourceControl: fatal: /Temp: '/Temp' is outside repository
+[2019.09.07-15.33.36:798][432]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content' is outside repository
+[2019.09.07-15.33.46:876][432]LogSlate: Window 'Submit Files' being destroyed
+[2019.09.07-15.33.47:472][432]LogSourceControl: commit successful: [master 45d2d4d] Model
+[2019.09.07-15.33.47:572][432]SourceControl: [master 45d2d4d] Model
+[2019.09.07-15.33.47:572][432]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2019.09.07-15.33.47:572][432]SourceControl:  create mode 100644 FMH/Content/Models.umap
+[2019.09.07-15.33.47:572][432]SourceControl:  create mode 100644 FMH/Content/Models/hexagon.uasset
+[2019.09.07-15.33.47:576][432]SourceControl: Commited [master 45d2d4d] Model.
