@@ -1,4 +1,4 @@
-﻿Log file open, 09/07/19 18:28:58
+﻿Log file open, 09/07/19 18:48:28
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: FMH
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.068857
+LogStats: Stats thread started at 0.081339
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,473 +157,800 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
-[2019.09.07-16.28.58:618][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.09.07-16.28.58:618][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
-[2019.09.07-16.28.58:618][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
-[2019.09.07-16.28.58:621][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.07-16.28.58:621][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.07-16.28.58:622][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.07-16.28.58:622][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.07-16.28.58:622][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.09.07-16.28.58:625][  0]LogHAL: Display: Platform has ~ 8 GB [8514441216 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.09.07-16.28.58:625][  0]LogInit: Going up to parent DeviceProfile []
-[2019.09.07-16.28.58:625][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.09.07-16.28.58:625][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.09.07-16.28.58:626][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.09.07-16.28.58:627][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.09.07-16.28.58:627][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.09.07-16.28.58:627][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
-[2019.09.07-16.28.58:627][  0]LogInit: Computer: DESKTOP-9DCK8AN
-[2019.09.07-16.28.58:627][  0]LogInit: User: NikodemKaźmierczak
-[2019.09.07-16.28.58:627][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.09.07-16.28.58:627][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2019.09.07-16.28.58:627][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.09.07-16.28.58:627][  0]LogMemory: Platform Memory Stats for Windows
-[2019.09.07-16.28.58:627][  0]LogMemory: Process Physical Memory: 99.70 MB used, 99.70 MB peak
-[2019.09.07-16.28.58:627][  0]LogMemory: Process Virtual Memory: 87.86 MB used, 87.86 MB peak
-[2019.09.07-16.28.58:627][  0]LogMemory: Physical Memory: 6077.89 MB used,  2042.12 MB free, 8120.00 MB total
-[2019.09.07-16.28.58:627][  0]LogMemory: Virtual Memory: 4657.95 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2019.09.07-16.28.58:629][  0]LogWindows: WindowsPlatformFeatures enabled
-[2019.09.07-16.28.58:648][  0]LogInit: Using OS detected language (pl-PL).
-[2019.09.07-16.28.58:648][  0]LogInit: Using OS detected locale (pl-PL).
-[2019.09.07-16.28.58:649][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
-[2019.09.07-16.28.58:649][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
-[2019.09.07-16.28.58:650][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
-[2019.09.07-16.28.58:650][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
-[2019.09.07-16.28.58:650][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
-[2019.09.07-16.28.58:650][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
-[2019.09.07-16.28.58:650][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
-[2019.09.07-16.28.58:650][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
-[2019.09.07-16.28.58:651][  0]LogInit: Setting process to per monitor DPI aware
-[2019.09.07-16.28.58:680][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.09.07-16.28.58:680][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.09.07-16.28.58:848][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.09.07-16.28.58:848][  0]LogD3D11RHI: D3D11 adapters:
-[2019.09.07-16.28.58:927][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
-[2019.09.07-16.28.58:928][  0]LogD3D11RHI:       4053/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2019.09.07-16.28.58:929][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.09.07-16.28.58:930][  0]LogD3D11RHI:       0/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.09.07-16.28.58:930][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.09.07-16.28.58:939][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.09.07-16.28.58:939][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
-[2019.09.07-16.28.58:939][  0]LogWindows: EnumDisplayDevices:
-[2019.09.07-16.28.58:939][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
-[2019.09.07-16.28.58:939][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2019.09.07-16.28.58:940][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2019.09.07-16.28.58:940][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
-[2019.09.07-16.28.58:940][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.09.07-16.28.58:940][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
-[2019.09.07-16.28.58:940][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
-[2019.09.07-16.28.58:940][  0]LogD3D11RHI:      Driver Date: 8-24-2019
-[2019.09.07-16.28.58:940][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
-[2019.09.07-16.28.58:989][  0]LogD3D11RHI: Async texture creation enabled
-[2019.09.07-16.28.59:015][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.09.07-16.28.59:346][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.09.07-16.28.59:355][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.09.07-16.28.59:363][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.09.07-16.28.59:372][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.09.07-16.28.59:382][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.09.07-16.28.59:391][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.09.07-16.28.59:400][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.09.07-16.28.59:409][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.09.07-16.28.59:413][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.09.07-16.28.59:450][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.09.07-16.28.59:453][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.09.07-16.28.59:474][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.09.07-16.28.59:474][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.09.07-16.28.59:490][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.09.07-16.28.59:490][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.09.07-16.28.59:498][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.09.07-16.28.59:505][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.09.07-16.28.59:514][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.09.07-16.28.59:527][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.09.07-16.28.59:554][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.09.07-16.28.59:554][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.09.07-16.28.59:554][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.09.07-16.28.59:562][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.09.07-16.28.59:611][  0]LogShaderCompilers: Guid format shader working directory is 6 characters bigger than the processId version (../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Intermediate/Shaders/WorkingDirectory/19048/).
-[2019.09.07-16.28.59:611][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NikodemKaźmierczak/AppData/Local/Temp/UnrealShaderWorkingDir/220FA42A46323A7D0D7E629ADEA5A72E/'.
-[2019.09.07-16.28.59:613][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
-[2019.09.07-16.29.00:319][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.09.07-16.29.00:369][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/NikodemKaźmierczak/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.09.07-16.29.00:369][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NikodemKaźmierczak/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2019.09.07-16.29.00:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.09.07-16.29.00:369][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.09.07-16.29.00:369][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.07-16.29.00:369][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.09.07-16.29.00:382][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.09.07-16.29.00:382][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.09.07-16.29.00:382][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.09.07-16.29.00:383][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NikodemKaźmierczak/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.09.07-16.29.00:383][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.09.07-16.29.00:383][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.09.07-16.29.00:405][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.09.07-16.29.00:408][  0]LogSlate: Using FreeType 2.6.0
-[2019.09.07-16.29.00:409][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.09.07-16.29.00:466][  0]LogAssetRegistry: FAssetRegistry took 0.0022 seconds to start up
-[2019.09.07-16.29.00:738][  0]LogInit: Selected Device Profile: [Windows]
-[2019.09.07-16.29.00:897][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.09.07-16.29.00:897][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.09.07-16.29.00:897][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.09.07-16.29.00:897][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.09.07-16.29.00:897][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.09.07-16.29.00:906][  0]LogNetVersion: FMH 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 635483368)
-[2019.09.07-16.29.01:325][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.041030 seconds
-[2019.09.07-16.29.01:332][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
-[2019.09.07-16.29.01:332][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
-[2019.09.07-16.29.01:332][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.09.07-16.29.02:213][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.09.07-16.29.02:216][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.09.07-16.29.02:271][  0]SourceControl: Source control is disabled
-[2019.09.07-16.29.02:805][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.09.07-16.29.02:917][  0]LogOcInput: OculusInput pre-init called
-[2019.09.07-16.29.02:923][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2019.09.07-16.29.02:923][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2019.09.07-16.29.02:992][  0]LogEngine: Initializing Engine...
-[2019.09.07-16.29.02:993][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.09.07-16.29.02:994][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.09.07-16.29.03:256][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.09.07-16.29.03:267][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.09.07-16.29.03:285][  0]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2019.09.07-16.29.03:301][  0]LogInit: FAudioDevice initialized.
-[2019.09.07-16.29.03:301][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.09.07-16.29.03:371][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/NikodemKaźmierczak/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2019.09.07-16.29.03:376][  0]LogInit: Texture streaming: Enabled
-[2019.09.07-16.29.03:391][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.09.07-16.29.03:443][  0]LogInit: Transaction tracking system initialized
-[2019.09.07-16.29.03:467][  0]BlueprintLog: New page: Editor Load
-[2019.09.07-16.29.03:551][  0]LocalizationService: Localization service is disabled
-[2019.09.07-16.29.03:781][  0]LogFileCache: Scanning file cache for directory 'D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/' took 0.00s
-[2019.09.07-16.29.03:781][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.09.07-16.29.03:781][  0]LogCook: Display: Mobile HDR setting 1
-[2019.09.07-16.29.03:954][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.09.07-16.29.03:954][  0]LightingResults: New page: Lighting Build
-[2019.09.07-16.29.03:956][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2019.09.07-16.29.03:956][  0]MapCheck: New page: Map Check
-[2019.09.07-16.29.03:956][  0]LightingResults: New page: Lighting Build
-[2019.09.07-16.29.03:982][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
-[2019.09.07-16.29.04:059][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.09.07-16.29.04:064][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.09.07-16.29.04:090][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.35ms
-[2019.09.07-16.29.04:090][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.09.07-16.29.04:091][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,151ms to complete.
-[2019.09.07-16.29.04:091][  0]LogFileHelpers: Loading map 'Template_Default' took 0.137
-[2019.09.07-16.29.04:217][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.07-16.29.04:226][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.07-16.29.04:233][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.07-16.29.04:241][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.09.07-16.29.04:246][  0]LogCollectionManager: Loaded 0 collections in 0.001333 seconds
-[2019.09.07-16.29.04:250][  0]LogFileCache: Scanning file cache for directory 'D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Collections/' took 0.00s
-[2019.09.07-16.29.04:250][  0]LogFileCache: Scanning file cache for directory 'D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Developers/NikodemKaźmierczak/Collections/' took 0.00s
-[2019.09.07-16.29.04:250][  0]LogFileCache: Scanning file cache for directory 'D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Collections/' took 0.00s
-[2019.09.07-16.29.04:250][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2019.09.07-16.29.04:260][  0]LogContentBrowser: Native class hierarchy populated in 0.0090 seconds. Added 2863 classes and 680 folders.
-[2019.09.07-16.29.04:267][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.09.07-16.29.04:310][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.09.07-16.29.04:315][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2019.09.07-16.29.04:374][  0]LogSlate: Took 0.000186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.09.07-16.29.04:375][  0]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.09.07-16.29.04:380][  0]LogSlate: Took 0.000181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.09.07-16.29.04:449][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2019.09.07-16.29.04:560][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.09.07-16.29.04:560][  0]LogLoad: (Engine Initialization) Total time: 7.26 seconds
-[2019.09.07-16.29.04:560][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.09.07-16.29.04:604][  0]LogAssetRegistry: Asset discovery search completed in 4.1400 seconds
-[2019.09.07-16.29.04:608][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
-[2019.09.07-16.29.04:608][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000062 seconds (updated 0 objects)
-[2019.09.07-16.29.04:610][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.09.07-16.29.04:623][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.09.07-16.29.44:964][909]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.09.07-16.29.45:144][909]LogSlate: FSceneViewport::OnFocusLost() reason 5
-[2019.09.07-16.29.45:224][909]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Moje Pliki\Blender\BLĘDER\fmh_champion_model.fbx)
-[2019.09.07-16.29.45:443][909]LogFbx: Loading FBX Scene from D:\Moje Pliki\Blender\BLĘDER\fmh_champion_model.fbx
-[2019.09.07-16.29.45:503][909]LogFbx: FBX Scene Loaded Succesfully
-[2019.09.07-16.30.14:367][909]LogSlate: Window 'FBX Import Options' being destroyed
-[2019.09.07-16.30.14:500][909]LogFbx: Warning: Not valid bind pose for Pose (Cube.012) - Node Cube : The relative matrices do not match
-[2019.09.07-16.30.14:500][909]LogFbx: Warning: Getting valid bind pose failed. Try to recreate bind pose
-[2019.09.07-16.30.14:501][909]LogFbx: Valid bind pose for Pose (FbxSDKBindPose) - Cube
-[2019.09.07-16.30.14:501][909]LogFbx: Warning: Recreating bind pose succeeded.
-[2019.09.07-16.30.14:506][909]LogFbx: Triangulating skeletal mesh Cube
-[2019.09.07-16.30.14:704][909]LogFbx: Warning: Bones digested - 37  Depth of hierarchy - 9
-[2019.09.07-16.30.14:857][909]LogSkeletalMesh: Section 0: 546 vertices, 10 active bones
-[2019.09.07-16.30.14:857][909]LogSkeletalMesh: Section 1: 489 vertices, 7 active bones
-[2019.09.07-16.30.14:858][909]LogSkeletalMesh: Section 0: Material=0, 1044 triangles
-[2019.09.07-16.30.14:858][909]LogSkeletalMesh: Section 1: Material=1, 918 triangles
-[2019.09.07-16.30.14:882][909]LogSkeletalMesh: Building Skeletal Mesh fmh_champion_model...
-[2019.09.07-16.30.14:917][909]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/Models/fmh_champion_model.fmh_champion_model
-[2019.09.07-16.30.14:999][909]LogLinker: Failed to load '/Game/Models/fmh_champion_model_Skeleton': Can't find file.
-[2019.09.07-16.30.14:999][909]LogLinker: Failed to load '/Game/Models/fmh_champion_model_Skeleton': Can't find file.
-[2019.09.07-16.30.15:014][909]LogLinker: Failed to load '/Game/Models/fmh_champion_model_PhysicsAsset': Can't find file.
-[2019.09.07-16.30.15:014][909]LogLinker: Failed to load '/Game/Models/fmh_champion_model_PhysicsAsset': Can't find file.
-[2019.09.07-16.30.15:070][909]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Could not find root physics body: '/Engine/Transient.World_0:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0'
-[2019.09.07-16.30.15:070][909]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
-[2019.09.07-16.30.15:241][909]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
-[2019.09.07-16.30.15:244][909]LogSkeletalMesh: Building Skeletal Mesh fmh_champion_model...
-[2019.09.07-16.30.15:247][909]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Models/fmh_champion_model.fmh_champion_model
-[2019.09.07-16.30.15:277][909]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2019.09.07-16.30.15:277][909]FBXImport: Warning: The following bones are missing from the bind pose:
-leg3.r.001_end  
-arm3.r_end_end  
-Bone.010_end_end  
-arm3.l_end_end  
-Bone.011_end_end  
-Bone.012_end_end  
-leg3.l_end_end  
-Bone.014_end_end  
-leg.r.001_end_end  
-Bone_end_end  
-
-This can happen for bones that are not vert weighted. If they are not in the correct orientation after importing,
-please set the "Use T0 as ref pose" option or add them to the bind pose and reimport the skeletal mesh. 
-[2019.09.07-16.30.15:277][909]FBXImport: Warning: Mesh 'Cube' has no UV set. Creating a default set. 
-[2019.09.07-16.30.15:319][909]LogSkeletalMesh: Building Skeletal Mesh fmh_champion_model...
-[2019.09.07-16.30.15:321][909]LogSkeletalMesh: Built Skeletal Mesh [0.00s] /Game/Models/fmh_champion_model.fmh_champion_model
-[2019.09.07-16.30.15:680][911]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh_Skeleton.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/EditorMeshes/SkeletalMesh/DefaultSkeletalMesh_Skeleton.uasset' is outside repository
-[2019.09.07-16.30.15:680][911]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/EngineMeshes/SkeletalCube_Skeleton.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/EngineMeshes/SkeletalCube_Skeleton.uasset' is outside repository
-[2019.09.07-16.30.15:680][911]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Skeleton.uasset' is outside repository
-[2019.09.07-16.30.24:867][923]LogSlate: Window 'Message Log' being destroyed
-[2019.09.07-16.30.24:871][923]LogSlate: Window 'Message Log' being destroyed
-[2019.09.07-16.30.32:233][497]LogAssetEditorManager: Opening Asset editor for PhysicsAsset /Game/Models/fmh_champion_model_PhysicsAsset.fmh_champion_model_PhysicsAsset
-[2019.09.07-16.30.32:409][497]LogContentBrowser: Native class hierarchy updated for 'PhysicsAssetEditor' in 0.0003 seconds. Added 7 classes and 3 folders.
-[2019.09.07-16.30.32:448][497]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2019.09.07-16.30.33:392][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2019.09.07-16.30.33:454][497]LogContentBrowser: Native class hierarchy updated for 'PinnedCommandList' in 0.0004 seconds. Added 1 classes and 0 folders.
-[2019.09.07-16.30.34:617][497]LogSlate: Took 0.013354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2019.09.07-16.30.34:722][498]LogRenderer: Reallocating scene render targets to support 1208x620 Format 10 NumSamples 1 (Frame:1).
-[2019.09.07-16.30.46:505][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.07-16.31.07:922][447]Cmd: TRANSACTION UNDO
-[2019.09.07-16.31.07:938][447]LogEditorTransaction: Undo Move Element
-[2019.09.07-16.31.08:146][447]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2019.09.07-16.31.21:805][609]Cmd: TRANSACTION UNDO
-[2019.09.07-16.31.21:805][609]LogEditorTransaction: Undo Move Element
-[2019.09.07-16.31.21:887][609]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2019.09.07-16.31.22:488][642]Cmd: TRANSACTION UNDO
-[2019.09.07-16.31.22:488][642]LogEditorTransaction: Undo Move Element
-[2019.09.07-16.31.22:566][642]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_4:PersistentLevel.AnimationEditorPreviewActor_0.PhysicsAssetEditorSkeletalMeshComponent_0) Already registered. Aborting.
-[2019.09.07-16.31.26:811][959]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.07-16.31.44:164][510]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.09.07-16.31.44:412][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/fmh_champion_model_PhysicsAsset" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models/fmh_champion_model_PhysicsAsset.uasset" SILENT=true
-[2019.09.07-16.31.44:504][521]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/fmh_champion_model_PhysicsAsset6734E79F4345E0912F57518026B6AE47.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models/fmh_champion_model_PhysicsAsset.uasset'
-[2019.09.07-16.31.47:476][765]LogSlate: Window 'fmh_champion_model_PhysicsAsset' being destroyed
-[2019.09.07-16.31.47:479][765]LogSlate: Window 'fmh_champion_model_PhysicsAsset' being destroyed
-[2019.09.07-16.31.47:493][765]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
-[2019.09.07-16.32.00:607][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/fmh_champion_model" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models/fmh_champion_model.uasset" SILENT=true
-[2019.09.07-16.32.00:654][430]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/fmh_champion_modelD8694EEB4DED2C93733F1DB1C065C9F0.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models/fmh_champion_model.uasset'
-[2019.09.07-16.32.00:871][430]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Models/fmh_champion_model_Skeleton" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models/fmh_champion_model_Skeleton.uasset" SILENT=true
-[2019.09.07-16.32.00:879][430]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/fmh_champion_model_Skeleton06CCC1164281DC9359D4D5915C285543.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Models/fmh_champion_model_Skeleton.uasset'
-[2019.09.07-16.32.20:716][ 60]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content' is outside repository
-[2019.09.07-16.32.34:863][ 60]LogSlate: Window 'Submit Files' being destroyed
-[2019.09.07-16.32.35:781][ 60]LogSourceControl: commit successful: [master 868a1e6] modele
-[2019.09.07-16.32.35:881][ 60]SourceControl: [master 868a1e6] modele
-[2019.09.07-16.32.35:881][ 60]SourceControl:  4 files changed, 2 insertions(+)
-[2019.09.07-16.32.35:881][ 60]SourceControl:  create mode 100644 FMH/Content/Models/fmh_champion_model.uasset
-[2019.09.07-16.32.35:881][ 60]SourceControl:  create mode 100644 FMH/Content/Models/fmh_champion_model_PhysicsAsset.uasset
-[2019.09.07-16.32.35:881][ 60]SourceControl:  create mode 100644 FMH/Content/Models/fmh_champion_model_Skeleton.uasset
-[2019.09.07-16.32.35:886][ 60]SourceControl: Commited [master 868a1e6] modele.
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
+[2019.09.07-16.48.29:159][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.07-16.48.29:159][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.07-16.48.29:160][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
+[2019.09.07-16.48.29:160][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
+[2019.09.07-16.48.29:163][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.07-16.48.29:163][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:163][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.07-16.48.29:164][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.07-16.48.29:164][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.07-16.48.29:164][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.07-16.48.29:167][  0]LogHAL: Display: Platform has ~ 8 GB [8514441216 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.07-16.48.29:167][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.07-16.48.29:167][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.07-16.48.29:167][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Scalability.ini]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.07-16.48.29:168][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Config/Windows/Engine.ini]
+[2019.09.07-16.48.29:169][  0]LogInit: Computer: DESKTOP-9DCK8AN
+[2019.09.07-16.48.29:169][  0]LogInit: User: NikodemKaźmierczak
+[2019.09.07-16.48.29:169][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.07-16.48.29:169][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.07-16.48.29:169][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.09.07-16.48.29:169][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.07-16.48.29:169][  0]LogMemory: Process Physical Memory: 99.44 MB used, 99.44 MB peak
+[2019.09.07-16.48.29:169][  0]LogMemory: Process Virtual Memory: 98.25 MB used, 98.25 MB peak
+[2019.09.07-16.48.29:169][  0]LogMemory: Physical Memory: 6255.86 MB used,  1864.15 MB free, 8120.00 MB total
+[2019.09.07-16.48.29:169][  0]LogMemory: Virtual Memory: 4668.39 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.09.07-16.48.29:171][  0]LogWindows: WindowsPlatformFeatures enabled
+[2019.09.07-16.48.29:191][  0]LogInit: Using OS detected language (pl-PL).
+[2019.09.07-16.48.29:191][  0]LogInit: Using OS detected locale (pl-PL).
+[2019.09.07-16.48.29:192][  0]LogTextLocalizationManager: No specific localization for 'pl-PL' exists, so the 'pl' localization will be used.
+[2019.09.07-16.48.29:192][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/pl/Editor.locres' could not be opened for reading!
+[2019.09.07-16.48.29:192][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/pl/EditorTutorials.locres' could not be opened for reading!
+[2019.09.07-16.48.29:192][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/pl/Keywords.locres' could not be opened for reading!
+[2019.09.07-16.48.29:192][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/pl/Category.locres' could not be opened for reading!
+[2019.09.07-16.48.29:193][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/pl/ToolTips.locres' could not be opened for reading!
+[2019.09.07-16.48.29:193][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/pl/PropertyNames.locres' could not be opened for reading!
+[2019.09.07-16.48.29:193][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/pl/Engine.locres' could not be opened for reading!
+[2019.09.07-16.48.29:194][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.07-16.48.29:219][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.07-16.48.29:219][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.07-16.48.29:385][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.07-16.48.29:385][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.07-16.48.29:469][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2019.09.07-16.48.29:469][  0]LogD3D11RHI:       4053/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.09.07-16.48.29:471][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.07-16.48.29:471][  0]LogD3D11RHI:       0/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.07-16.48.29:471][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.07-16.48.29:478][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.07-16.48.29:478][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2019.09.07-16.48.29:478][  0]LogWindows: EnumDisplayDevices:
+[2019.09.07-16.48.29:478][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2019.09.07-16.48.29:479][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.09.07-16.48.29:479][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.09.07-16.48.29:479][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2019.09.07-16.48.29:479][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.09.07-16.48.29:479][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2019.09.07-16.48.29:479][  0]LogD3D11RHI:   Driver Version: 436.15 (internal:26.21.14.3615, unified:436.15)
+[2019.09.07-16.48.29:479][  0]LogD3D11RHI:      Driver Date: 8-24-2019
+[2019.09.07-16.48.29:479][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2019.09.07-16.48.29:529][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.07-16.48.29:555][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.07-16.48.29:867][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.07-16.48.29:875][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.07-16.48.29:884][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.07-16.48.29:893][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.07-16.48.29:904][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.07-16.48.29:914][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.07-16.48.29:923][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.07-16.48.29:933][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.07-16.48.29:937][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.07-16.48.29:974][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.07-16.48.29:976][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.07-16.48.29:997][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.07-16.48.29:997][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.07-16.48.30:012][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.07-16.48.30:012][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.07-16.48.30:019][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.07-16.48.30:027][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.07-16.48.30:034][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.07-16.48.30:046][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.07-16.48.30:072][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.07-16.48.30:072][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.07-16.48.30:072][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.07-16.48.30:080][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.07-16.48.30:122][  0]LogShaderCompilers: Guid format shader working directory is 7 characters bigger than the processId version (../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Intermediate/Shaders/WorkingDirectory/8452/).
+[2019.09.07-16.48.30:122][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/NikodemKaźmierczak/AppData/Local/Temp/UnrealShaderWorkingDir/FAA375B74165E3B5F1AE5E9F476C6DCB/'.
+[2019.09.07-16.48.30:125][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2019.09.07-16.48.30:844][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.07-16.48.30:893][  0]LogDerivedDataCache: Loaded boot cache 0.05s 73MB C:/Users/NikodemKaźmierczak/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.09.07-16.48.30:893][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/NikodemKaźmierczak/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2019.09.07-16.48.30:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.07-16.48.30:893][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.07-16.48.30:893][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.07-16.48.30:893][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.07-16.48.30:906][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.07-16.48.30:906][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.07-16.48.30:906][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.07-16.48.30:907][  0]LogDerivedDataCache: Using Local data cache path C:/Users/NikodemKaźmierczak/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.07-16.48.30:907][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.07-16.48.30:907][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.07-16.48.30:931][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.07-16.48.30:934][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.07-16.48.30:934][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.07-16.48.30:991][  0]LogAssetRegistry: FAssetRegistry took 0.0023 seconds to start up
+[2019.09.07-16.48.31:285][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.07-16.48.31:448][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.07-16.48.31:448][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.07-16.48.31:448][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.07-16.48.31:448][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.07-16.48.31:448][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.07-16.48.31:458][  0]LogNetVersion: FMH 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 635483368)
+[2019.09.07-16.48.31:911][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 1 prioritized culture(s) in 0.049661 seconds
+[2019.09.07-16.48.31:917][  0]LogUObjectArray: 43444 objects as part of root set at end of initial load.
+[2019.09.07-16.48.31:917][  0]LogUObjectAllocator: 7548648 out of 0 bytes used by permanent object pool.
+[2019.09.07-16.48.31:917][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.07-16.48.32:821][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.07-16.48.32:824][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.07-16.48.32:880][  0]SourceControl: Source control is disabled
+[2019.09.07-16.48.34:049][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.07-16.48.34:165][  0]LogOcInput: OculusInput pre-init called
+[2019.09.07-16.48.34:172][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2019.09.07-16.48.34:172][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2019.09.07-16.48.34:245][  0]LogEngine: Initializing Engine...
+[2019.09.07-16.48.34:246][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.07-16.48.34:247][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.09.07-16.48.34:488][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.07-16.48.34:501][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.07-16.48.34:530][  0]LogInit: XAudio2 using 'Głośniki (Urządzenie zgodne ze standardem High Definition Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2019.09.07-16.48.34:547][  0]LogInit: FAudioDevice initialized.
+[2019.09.07-16.48.34:548][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.07-16.48.34:618][  0]LogDerivedDataCache: Saved boot cache 0.07s 73MB C:/Users/NikodemKaźmierczak/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2019.09.07-16.48.34:626][  0]LogInit: Texture streaming: Enabled
+[2019.09.07-16.48.34:640][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.07-16.48.34:692][  0]LogInit: Transaction tracking system initialized
+[2019.09.07-16.48.34:716][  0]BlueprintLog: New page: Editor Load
+[2019.09.07-16.48.34:776][  0]LocalizationService: Localization service is disabled
+[2019.09.07-16.48.35:005][  0]LogFileCache: Scanning file cache for directory 'D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/' took 0.00s
+[2019.09.07-16.48.35:005][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.07-16.48.35:005][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.07-16.48.35:175][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.07-16.48.35:175][  0]LightingResults: New page: Lighting Build
+[2019.09.07-16.48.35:177][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2019.09.07-16.48.35:177][  0]MapCheck: New page: Map Check
+[2019.09.07-16.48.35:177][  0]LightingResults: New page: Lighting Build
+[2019.09.07-16.48.35:202][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2019.09.07-16.48.35:280][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.09.07-16.48.35:285][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.07-16.48.35:308][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.34ms
+[2019.09.07-16.48.35:308][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.07-16.48.35:308][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,137ms to complete.
+[2019.09.07-16.48.35:308][  0]LogFileHelpers: Loading map 'Template_Default' took 0.133
+[2019.09.07-16.48.35:496][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.07-16.48.35:504][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.07-16.48.35:512][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.07-16.48.35:518][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.07-16.48.35:528][  0]LogCollectionManager: Loaded 0 collections in 0.001321 seconds
+[2019.09.07-16.48.35:548][  0]LogFileCache: Scanning file cache for directory 'D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Collections/' took 0.00s
+[2019.09.07-16.48.35:548][  0]LogFileCache: Scanning file cache for directory 'D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Developers/NikodemKaźmierczak/Collections/' took 0.00s
+[2019.09.07-16.48.35:548][  0]LogFileCache: Scanning file cache for directory 'D:/Moje Pliki/EpicGames/GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Collections/' took 0.00s
+[2019.09.07-16.48.35:548][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2019.09.07-16.48.35:557][  0]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2863 classes and 680 folders.
+[2019.09.07-16.48.35:584][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.09.07-16.48.36:577][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.09.07-16.48.36:842][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.09.07-16.48.36:911][  0]LogSlate: Took 0.000196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.07-16.48.36:913][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.07-16.48.36:933][  0]LogSlate: Took 0.015932 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.07-16.48.37:041][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.09.07-16.48.37:218][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.09.07-16.48.37:219][  0]LogLoad: (Engine Initialization) Total time: 9.48 seconds
+[2019.09.07-16.48.37:219][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.07-16.48.37:308][  0]LogAssetRegistry: Asset discovery search completed in 6.3184 seconds
+[2019.09.07-16.48.37:312][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000004 seconds (found 0 objects)
+[2019.09.07-16.48.37:312][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2019.09.07-16.48.37:313][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.07-16.48.37:353][  0]LogSlate: Took 0.026341 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.07-16.48.38:952][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.07-16.49.42:003][862]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.07-16.49.42:111][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\brown_mud_leaves_01_4k.jpg/brown_mud_leaves_01_AO_4k.jpg)
+[2019.09.07-16.49.42:558][862]LogTexture: Display: Building textures: brown_mud_leaves_01_AO_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.49.58:361][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\brown_mud_leaves_01_4k.jpg/brown_mud_leaves_01_bump_4k.jpg)
+[2019.09.07-16.49.58:674][862]LogTexture: Display: Building textures: brown_mud_leaves_01_bump_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.50.14:065][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\brown_mud_leaves_01_4k.jpg/brown_mud_leaves_01_diff_4k.jpg)
+[2019.09.07-16.50.14:734][862]LogTexture: Display: Building textures: brown_mud_leaves_01_diff_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.50.38:734][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\brown_mud_leaves_01_4k.jpg/brown_mud_leaves_01_disp_4k.jpg)
+[2019.09.07-16.50.38:785][862]LogTexture: Display: Building textures: brown_mud_leaves_01_disp_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.50.40:442][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\brown_mud_leaves_01_4k.jpg/brown_mud_leaves_01_Nor_4k.jpg)
+[2019.09.07-16.50.41:131][862]LogTexture: Display: Building textures: brown_mud_leaves_01_Nor_4k (BC5, 4096X4096)
+[2019.09.07-16.50.43:739][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\brown_mud_leaves_01_4k.jpg/brown_mud_leaves_01_rough_4k.jpg)
+[2019.09.07-16.50.44:024][862]LogTexture: Display: Building textures: brown_mud_leaves_01_rough_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.51.00:635][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\brown_mud_leaves_01_4k.jpg/brown_mud_leaves_01_spec_4k.jpg)
+[2019.09.07-16.51.00:804][862]LogTexture: Display: Building textures: brown_mud_leaves_01_spec_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.51.06:757][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\green_rough_planks_4k_jpg/green_rough_planks_ao_4k.jpg)
+[2019.09.07-16.51.07:069][862]LogTexture: Display: Building textures: green_rough_planks_ao_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.51.25:766][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\green_rough_planks_4k_jpg/green_rough_planks_bump_4k.jpg)
+[2019.09.07-16.51.26:034][862]LogTexture: Display: Building textures: green_rough_planks_bump_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.51.43:170][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\green_rough_planks_4k_jpg/green_rough_planks_diff_4k.jpg)
+[2019.09.07-16.51.43:719][862]LogTexture: Display: Building textures: green_rough_planks_diff_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.52.01:048][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\green_rough_planks_4k_jpg/green_rough_planks_disp_4k.jpg)
+[2019.09.07-16.52.01:081][862]LogTexture: Display: Building textures: green_rough_planks_disp_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.52.02:279][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\green_rough_planks_4k_jpg/green_rough_planks_nor_4k.jpg)
+[2019.09.07-16.52.02:808][862]LogTexture: Display: Building textures: green_rough_planks_nor_4k (BC5, 4096X4096)
+[2019.09.07-16.52.05:254][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\green_rough_planks_4k_jpg/green_rough_planks_rough_4k.jpg)
+[2019.09.07-16.52.05:401][862]LogTexture: Display: Building textures: green_rough_planks_rough_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.52.10:736][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\green_rough_planks_4k_jpg/green_rough_planks_spec_4k.jpg)
+[2019.09.07-16.52.10:927][862]LogTexture: Display: Building textures: green_rough_planks_spec_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.52.22:189][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\marble_01_4k_jpg/marble_01_AO_4k.jpg)
+[2019.09.07-16.52.22:527][862]LogTexture: Display: Building textures: marble_01_AO_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.52.31:842][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\marble_01_4k_jpg/marble_01_diff_4k.jpg)
+[2019.09.07-16.52.32:245][862]LogTexture: Display: Building textures: marble_01_diff_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.52.43:373][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\marble_01_4k_jpg/marble_01_disp_4k.jpg)
+[2019.09.07-16.52.43:412][862]LogTexture: Display: Building textures: marble_01_disp_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.52.44:644][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\marble_01_4k_jpg/marble_01_nor_4k.jpg)
+[2019.09.07-16.52.44:901][862]LogTexture: Display: Building textures: marble_01_nor_4k (BC5, 4096X4096)
+[2019.09.07-16.52.46:525][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\marble_01_4k_jpg/marble_01_rough_4k.jpg)
+[2019.09.07-16.52.46:605][862]LogTexture: Display: Building textures: marble_01_rough_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.52.48:701][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\marble_01_4k_jpg/marble_01_spec_4k.jpg)
+[2019.09.07-16.52.48:908][862]LogTexture: Display: Building textures: marble_01_spec_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.52.58:822][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\old_planks_02_4k_jpg/old_planks_02_ao_4k.jpg)
+[2019.09.07-16.52.59:077][862]LogTexture: Display: Building textures: old_planks_02_ao_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.53.11:961][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\old_planks_02_4k_jpg/old_planks_02_diff_4k.jpg)
+[2019.09.07-16.53.12:395][862]LogTexture: Display: Building textures: old_planks_02_diff_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.53.26:736][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\old_planks_02_4k_jpg/old_planks_02_disp_4k.jpg)
+[2019.09.07-16.53.26:824][862]LogTexture: Display: Building textures: old_planks_02_disp_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.53.29:123][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\old_planks_02_4k_jpg/old_planks_02_nor_4k.jpg)
+[2019.09.07-16.53.29:685][862]LogTexture: Display: Building textures: old_planks_02_nor_4k (BC5, 4096X4096)
+[2019.09.07-16.53.32:295][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\old_planks_02_4k_jpg/old_planks_02_rough_4k.jpg)
+[2019.09.07-16.53.32:497][862]LogTexture: Display: Building textures: old_planks_02_rough_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.53.40:781][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\old_planks_02_4k_jpg/old_planks_02_spec_4k.jpg)
+[2019.09.07-16.53.40:966][862]LogTexture: Display: Building textures: old_planks_02_spec_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.53.50:858][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\plaster_grey_04_4k_jpg/plaster_grey_04_ao_4k.jpg)
+[2019.09.07-16.53.51:207][862]LogTexture: Display: Building textures: plaster_grey_04_ao_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.54.09:233][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\plaster_grey_04_4k_jpg/plaster_grey_04_diff_4k.jpg)
+[2019.09.07-16.54.09:721][862]LogTexture: Display: Building textures: plaster_grey_04_diff_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.54.30:973][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\plaster_grey_04_4k_jpg/plaster_grey_04_disp_4k.jpg)
+[2019.09.07-16.54.31:043][862]LogTexture: Display: Building textures: plaster_grey_04_disp_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.54.32:948][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\plaster_grey_04_4k_jpg/plaster_grey_04_nor_4k.jpg)
+[2019.09.07-16.54.33:739][862]LogTexture: Display: Building textures: plaster_grey_04_nor_4k (BC5, 4096X4096)
+[2019.09.07-16.54.36:551][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\plaster_grey_04_4k_jpg/plaster_grey_04_rough_4k.jpg)
+[2019.09.07-16.54.36:759][862]LogTexture: Display: Building textures: plaster_grey_04_rough_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.54.51:893][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\plaster_grey_04_4k_jpg/plaster_grey_04_rough_ao_4k.jpg)
+[2019.09.07-16.54.52:504][862]LogTexture: Display: Building textures: plaster_grey_04_rough_ao_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.55.18:720][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rough_block_wall_4k_jpg/rough_block_wall_ao_4k.jpg)
+[2019.09.07-16.55.19:030][862]LogTexture: Display: Building textures: rough_block_wall_ao_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.55.36:681][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rough_block_wall_4k_jpg/rough_block_wall_diff_4k.jpg)
+[2019.09.07-16.55.37:199][862]LogTexture: Display: Building textures: rough_block_wall_diff_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.55.57:818][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rough_block_wall_4k_jpg/rough_block_wall_disp_4k.jpg)
+[2019.09.07-16.55.57:891][862]LogTexture: Display: Building textures: rough_block_wall_disp_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.56.00:295][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rough_block_wall_4k_jpg/rough_block_wall_nor_4k.jpg)
+[2019.09.07-16.56.01:093][862]LogTexture: Display: Building textures: rough_block_wall_nor_4k (BC5, 4096X4096)
+[2019.09.07-16.56.04:388][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rough_block_wall_4k_jpg/rough_block_wall_rough_4k.jpg)
+[2019.09.07-16.56.04:573][862]LogTexture: Display: Building textures: rough_block_wall_rough_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.56.13:602][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rough_block_wall_4k_jpg/rough_block_wall_rough_ao_4k.jpg)
+[2019.09.07-16.56.14:195][862]LogTexture: Display: Building textures: rough_block_wall_rough_ao_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.56.37:932][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rusty_metal_4k_jpg/rusty_metal_ao_4k.jpg)
+[2019.09.07-16.56.38:244][862]LogTexture: Display: Building textures: rusty_metal_ao_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.56.56:642][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rusty_metal_4k_jpg/rusty_metal_diff_4k.jpg)
+[2019.09.07-16.56.57:179][862]LogTexture: Display: Building textures: rusty_metal_diff_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.57.19:596][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rusty_metal_4k_jpg/rusty_metal_disp_4k.jpg)
+[2019.09.07-16.57.19:647][862]LogTexture: Display: Building textures: rusty_metal_disp_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.57.21:424][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rusty_metal_4k_jpg/rusty_metal_nor_4k.jpg)
+[2019.09.07-16.57.21:906][862]LogTexture: Display: Building textures: rusty_metal_nor_4k (BC5, 4096X4096)
+[2019.09.07-16.57.24:595][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rusty_metal_4k_jpg/rusty_metal_rough_4k.jpg)
+[2019.09.07-16.57.24:800][862]LogTexture: Display: Building textures: rusty_metal_rough_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.57.32:978][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\rusty_metal_4k_jpg/rusty_metal_spec_4k.jpg)
+[2019.09.07-16.57.33:190][862]LogTexture: Display: Building textures: rusty_metal_spec_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.57.44:974][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\sandstone_blocks_08_4k_jpg/sandstone_blocks_08_ao_4k.jpg)
+[2019.09.07-16.57.45:230][862]LogTexture: Display: Building textures: sandstone_blocks_08_ao_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.57.55:168][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\sandstone_blocks_08_4k_jpg/sandstone_blocks_08_diff_4k.jpg)
+[2019.09.07-16.57.55:642][862]LogTexture: Display: Building textures: sandstone_blocks_08_diff_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.58.10:847][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\sandstone_blocks_08_4k_jpg/sandstone_blocks_08_disp_4k.jpg)
+[2019.09.07-16.58.10:884][862]LogTexture: Display: Building textures: sandstone_blocks_08_disp_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.58.12:419][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\sandstone_blocks_08_4k_jpg/sandstone_blocks_08_nor_4k.jpg)
+[2019.09.07-16.58.12:868][862]LogTexture: Display: Building textures: sandstone_blocks_08_nor_4k (BC5, 4096X4096)
+[2019.09.07-16.58.15:241][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\sandstone_blocks_08_4k_jpg/sandstone_blocks_08_rough_4k.jpg)
+[2019.09.07-16.58.15:488][862]LogTexture: Display: Building textures: sandstone_blocks_08_rough_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.58.25:873][862]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\Blender\Textury\UE4\sandstone_blocks_08_4k_jpg/sandstone_blocks_08_spec_4k.jpg)
+[2019.09.07-16.58.26:050][862]LogTexture: Display: Building textures: sandstone_blocks_08_spec_4k (AutoDXT, 4096X4096)
+[2019.09.07-16.58.42:888][893]LogUObjectHash: Compacting FUObjectHashTables data took   8.64ms
+[2019.09.07-16.58.42:889][893]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.118
+[2019.09.07-16.58.42:985][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_AO_4k] ([1] browsable assets)...
+[2019.09.07-16.58.43:008][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_AO_4k.brown_mud_leaves_01_AO_4k]
+[2019.09.07-16.58.43:008][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_AO_4k]
+[2019.09.07-16.58.43:157][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_AO_4k_Auto17E787C4F4D2C54447BA5D799780FFDEE.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_AO_4k_Auto1.uasset'
+[2019.09.07-16.58.43:218][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_bump_4k] ([1] browsable assets)...
+[2019.09.07-16.58.43:225][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_bump_4k.brown_mud_leaves_01_bump_4k]
+[2019.09.07-16.58.43:225][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_bump_4k]
+[2019.09.07-16.58.43:266][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_bump_4k_Auto4E801B844193E60748AADC94E1F82BF5.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_bump_4k_Auto1.uasset'
+[2019.09.07-16.58.43:267][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_diff_4k] ([1] browsable assets)...
+[2019.09.07-16.58.43:274][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_diff_4k.brown_mud_leaves_01_diff_4k]
+[2019.09.07-16.58.43:274][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_diff_4k]
+[2019.09.07-16.58.43:749][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_diff_4k_Auto0505CC344A375D29C19B40864F4E9520.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_diff_4k_Auto1.uasset'
+[2019.09.07-16.58.43:750][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_disp_4k] ([1] browsable assets)...
+[2019.09.07-16.58.43:756][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_disp_4k.brown_mud_leaves_01_disp_4k]
+[2019.09.07-16.58.43:756][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_disp_4k]
+[2019.09.07-16.58.43:778][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_disp_4k_Auto1AC336CF47B78F64B9D7EEB550A57A7D.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_disp_4k_Auto1.uasset'
+[2019.09.07-16.58.43:779][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_Nor_4k] ([1] browsable assets)...
+[2019.09.07-16.58.43:786][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_Nor_4k.brown_mud_leaves_01_Nor_4k]
+[2019.09.07-16.58.43:786][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_Nor_4k]
+[2019.09.07-16.58.44:842][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_Nor_4k_Auto1836A3DA545F3BC59D945E68048E75B20.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_Nor_4k_Auto1.uasset'
+[2019.09.07-16.58.44:842][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_rough_4k] ([1] browsable assets)...
+[2019.09.07-16.58.44:850][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_rough_4k.brown_mud_leaves_01_rough_4k]
+[2019.09.07-16.58.44:850][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_rough_4k]
+[2019.09.07-16.58.44:950][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_rough_4k_Aut4F36F9F646BA3126F2E6B193F6B73225.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_rough_4k_Auto1.uasset'
+[2019.09.07-16.58.44:951][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_spec_4k] ([1] browsable assets)...
+[2019.09.07-16.58.44:956][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_spec_4k.brown_mud_leaves_01_spec_4k]
+[2019.09.07-16.58.44:956][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_spec_4k]
+[2019.09.07-16.58.44:982][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_spec_4k_Auto443A99DD4993B946B197B2B5F6E34102.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_spec_4k_Auto1.uasset'
+[2019.09.07-16.58.44:982][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_ao_4k] ([1] browsable assets)...
+[2019.09.07-16.58.44:989][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_ao_4k.green_rough_planks_ao_4k]
+[2019.09.07-16.58.44:989][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_ao_4k]
+[2019.09.07-16.58.45:223][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_ao_4k_Auto13B45CDA04FE222AC37BB5C83EB065BE0.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_ao_4k_Auto1.uasset'
+[2019.09.07-16.58.45:224][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_bump_4k] ([1] browsable assets)...
+[2019.09.07-16.58.45:231][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_bump_4k.green_rough_planks_bump_4k]
+[2019.09.07-16.58.45:231][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_bump_4k]
+[2019.09.07-16.58.45:255][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_bump_4k_Auto1AD35536D40F41D6236AB3E8E028FE7CA.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_bump_4k_Auto1.uasset'
+[2019.09.07-16.58.45:255][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_diff_4k] ([1] browsable assets)...
+[2019.09.07-16.58.45:262][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_diff_4k.green_rough_planks_diff_4k]
+[2019.09.07-16.58.45:262][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_diff_4k]
+[2019.09.07-16.58.45:959][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_diff_4k_Auto1411D95334A0FB9D63D30A48A926D060E.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_diff_4k_Auto1.uasset'
+[2019.09.07-16.58.45:960][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_disp_4k] ([1] browsable assets)...
+[2019.09.07-16.58.45:967][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_disp_4k.green_rough_planks_disp_4k]
+[2019.09.07-16.58.45:967][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_disp_4k]
+[2019.09.07-16.58.46:040][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_disp_4k_Auto14B02FFCD4309D71AF517C2903D543A92.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_disp_4k_Auto1.uasset'
+[2019.09.07-16.58.46:041][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_nor_4k] ([1] browsable assets)...
+[2019.09.07-16.58.46:049][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_nor_4k.green_rough_planks_nor_4k]
+[2019.09.07-16.58.46:049][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_nor_4k]
+[2019.09.07-16.58.46:542][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_nor_4k_Auto1E9A73DAE40CEB9150861FDAACA9F0BEB.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_nor_4k_Auto1.uasset'
+[2019.09.07-16.58.46:544][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_rough_4k] ([1] browsable assets)...
+[2019.09.07-16.58.46:551][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_rough_4k.green_rough_planks_rough_4k]
+[2019.09.07-16.58.46:551][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_rough_4k]
+[2019.09.07-16.58.46:670][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_rough_4k_AutoA9329B404439D5A0850731AA2D437C0C.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_rough_4k_Auto1.uasset'
+[2019.09.07-16.58.46:670][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_spec_4k] ([1] browsable assets)...
+[2019.09.07-16.58.46:678][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_spec_4k.green_rough_planks_spec_4k]
+[2019.09.07-16.58.46:678][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_spec_4k]
+[2019.09.07-16.58.46:719][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_spec_4k_Auto1742B726F4E1D77F5B616C7A55489C267.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/green_rough_planks_4k_jpg/green_rough_planks_spec_4k_Auto1.uasset'
+[2019.09.07-16.58.46:781][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/marble_01_4k_jpg/marble_01_AO_4k] ([1] browsable assets)...
+[2019.09.07-16.58.46:792][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/marble_01_4k_jpg/marble_01_AO_4k.marble_01_AO_4k]
+[2019.09.07-16.58.46:792][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/marble_01_4k_jpg/marble_01_AO_4k]
+[2019.09.07-16.58.48:334][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_AO_4k_Auto1451AEA2B48CCEAD0D5C93F9C0E185237.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/marble_01_4k_jpg/marble_01_AO_4k_Auto1.uasset'
+[2019.09.07-16.58.48:334][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/marble_01_4k_jpg/marble_01_diff_4k] ([1] browsable assets)...
+[2019.09.07-16.58.48:341][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/marble_01_4k_jpg/marble_01_diff_4k.marble_01_diff_4k]
+[2019.09.07-16.58.48:341][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/marble_01_4k_jpg/marble_01_diff_4k]
+[2019.09.07-16.58.48:907][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_diff_4k_Auto17C0A6DB647D4BE81A999A5A5891993E0.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/marble_01_4k_jpg/marble_01_diff_4k_Auto1.uasset'
+[2019.09.07-16.58.48:908][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/marble_01_4k_jpg/marble_01_disp_4k] ([1] browsable assets)...
+[2019.09.07-16.58.48:917][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/marble_01_4k_jpg/marble_01_disp_4k.marble_01_disp_4k]
+[2019.09.07-16.58.48:917][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/marble_01_4k_jpg/marble_01_disp_4k]
+[2019.09.07-16.58.48:937][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_disp_4k_Auto1C27636534033E11E6C6FD2920053D705.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/marble_01_4k_jpg/marble_01_disp_4k_Auto1.uasset'
+[2019.09.07-16.58.48:938][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/marble_01_4k_jpg/marble_01_nor_4k] ([1] browsable assets)...
+[2019.09.07-16.58.48:945][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/marble_01_4k_jpg/marble_01_nor_4k.marble_01_nor_4k]
+[2019.09.07-16.58.48:945][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/marble_01_4k_jpg/marble_01_nor_4k]
+[2019.09.07-16.58.50:147][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_nor_4k_Auto144FA3BB244A757FD3965F890E91BB47E.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/marble_01_4k_jpg/marble_01_nor_4k_Auto1.uasset'
+[2019.09.07-16.58.50:148][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/marble_01_4k_jpg/marble_01_rough_4k] ([1] browsable assets)...
+[2019.09.07-16.58.50:157][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/marble_01_4k_jpg/marble_01_rough_4k.marble_01_rough_4k]
+[2019.09.07-16.58.50:157][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/marble_01_4k_jpg/marble_01_rough_4k]
+[2019.09.07-16.58.50:224][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_rough_4k_Auto1C1525C9B43BE71B5912D6C95C4892702.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/marble_01_4k_jpg/marble_01_rough_4k_Auto1.uasset'
+[2019.09.07-16.58.50:225][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/marble_01_4k_jpg/marble_01_spec_4k] ([1] browsable assets)...
+[2019.09.07-16.58.50:233][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/marble_01_4k_jpg/marble_01_spec_4k.marble_01_spec_4k]
+[2019.09.07-16.58.50:233][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/marble_01_4k_jpg/marble_01_spec_4k]
+[2019.09.07-16.58.50:255][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_spec_4k_Auto13B7FCD404D76CB7BC7CB2DADFC260076.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/marble_01_4k_jpg/marble_01_spec_4k_Auto1.uasset'
+[2019.09.07-16.58.50:256][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_ao_4k] ([1] browsable assets)...
+[2019.09.07-16.58.50:263][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/old_planks_02_4k_jpg/old_planks_02_ao_4k.old_planks_02_ao_4k]
+[2019.09.07-16.58.50:263][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_ao_4k]
+[2019.09.07-16.58.50:290][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_ao_4k_Auto186202E2B4A63DD697F21B0A966480459.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/old_planks_02_4k_jpg/old_planks_02_ao_4k_Auto1.uasset'
+[2019.09.07-16.58.50:290][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_diff_4k] ([1] browsable assets)...
+[2019.09.07-16.58.50:297][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/old_planks_02_4k_jpg/old_planks_02_diff_4k.old_planks_02_diff_4k]
+[2019.09.07-16.58.50:297][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_diff_4k]
+[2019.09.07-16.58.51:701][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_diff_4k_Auto163D553E2445E9E2C201A38ADF20F0E9F.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/old_planks_02_4k_jpg/old_planks_02_diff_4k_Auto1.uasset'
+[2019.09.07-16.58.51:702][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_disp_4k] ([1] browsable assets)...
+[2019.09.07-16.58.51:709][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/old_planks_02_4k_jpg/old_planks_02_disp_4k.old_planks_02_disp_4k]
+[2019.09.07-16.58.51:709][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_disp_4k]
+[2019.09.07-16.58.51:795][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_disp_4k_Auto1958519674CF8AEE1434C13B1A3814CBF.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/old_planks_02_4k_jpg/old_planks_02_disp_4k_Auto1.uasset'
+[2019.09.07-16.58.51:796][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_nor_4k] ([1] browsable assets)...
+[2019.09.07-16.58.51:804][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/old_planks_02_4k_jpg/old_planks_02_nor_4k.old_planks_02_nor_4k]
+[2019.09.07-16.58.51:804][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_nor_4k]
+[2019.09.07-16.58.52:483][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_nor_4k_Auto1FA9F234042559596AD388CB054809983.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/old_planks_02_4k_jpg/old_planks_02_nor_4k_Auto1.uasset'
+[2019.09.07-16.58.52:484][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_rough_4k] ([1] browsable assets)...
+[2019.09.07-16.58.52:490][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/old_planks_02_4k_jpg/old_planks_02_rough_4k.old_planks_02_rough_4k]
+[2019.09.07-16.58.52:490][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_rough_4k]
+[2019.09.07-16.58.52:566][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_rough_4k_Auto10EF11DC545D0D0A58796CA91206A7C30.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/old_planks_02_4k_jpg/old_planks_02_rough_4k_Auto1.uasset'
+[2019.09.07-16.58.52:567][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_spec_4k] ([1] browsable assets)...
+[2019.09.07-16.58.52:573][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/old_planks_02_4k_jpg/old_planks_02_spec_4k.old_planks_02_spec_4k]
+[2019.09.07-16.58.52:573][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/old_planks_02_4k_jpg/old_planks_02_spec_4k]
+[2019.09.07-16.58.52:594][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_spec_4k_Auto13100F346404A718DADC3778200D9E8E3.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/old_planks_02_4k_jpg/old_planks_02_spec_4k_Auto1.uasset'
+[2019.09.07-16.58.52:596][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_ao_4k] ([1] browsable assets)...
+[2019.09.07-16.58.52:602][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_ao_4k.plaster_grey_04_ao_4k]
+[2019.09.07-16.58.52:603][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_ao_4k]
+[2019.09.07-16.58.52:669][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_ao_4k_Auto1FC4A0E974CE88457B31B10B7A13444D8.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_ao_4k_Auto1.uasset'
+[2019.09.07-16.58.52:670][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_diff_4k] ([1] browsable assets)...
+[2019.09.07-16.58.52:677][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_diff_4k.plaster_grey_04_diff_4k]
+[2019.09.07-16.58.52:677][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_diff_4k]
+[2019.09.07-16.58.53:189][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_diff_4k_Auto160EDC7A34683B67EC7549D8E5FB72A5B.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_diff_4k_Auto1.uasset'
+[2019.09.07-16.58.53:190][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_disp_4k] ([1] browsable assets)...
+[2019.09.07-16.58.53:196][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_disp_4k.plaster_grey_04_disp_4k]
+[2019.09.07-16.58.53:197][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_disp_4k]
+[2019.09.07-16.58.53:218][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_disp_4k_Auto1CE2CB1A8461D65FECC0A87A3D6501F63.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_disp_4k_Auto1.uasset'
+[2019.09.07-16.58.53:219][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_nor_4k] ([1] browsable assets)...
+[2019.09.07-16.58.53:226][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_nor_4k.plaster_grey_04_nor_4k]
+[2019.09.07-16.58.53:226][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_nor_4k]
+[2019.09.07-16.58.55:276][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_nor_4k_Auto16E06F253421BFDCF925DAD9268411724.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_nor_4k_Auto1.uasset'
+[2019.09.07-16.58.55:278][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_4k] ([1] browsable assets)...
+[2019.09.07-16.58.55:285][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_4k.plaster_grey_04_rough_4k]
+[2019.09.07-16.58.55:285][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_4k]
+[2019.09.07-16.58.55:341][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_rough_4k_Auto1F26037F744D59B0F6F6A7C9287034D4A.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_4k_Auto1.uasset'
+[2019.09.07-16.58.55:345][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_ao_4k] ([1] browsable assets)...
+[2019.09.07-16.58.55:352][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_ao_4k.plaster_grey_04_rough_ao_4k]
+[2019.09.07-16.58.55:352][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_ao_4k]
+[2019.09.07-16.58.55:804][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_rough_ao_4k_Auto280CE7CE45620F9698D96E8A9773E781.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_ao_4k_Auto1.uasset'
+[2019.09.07-16.58.55:807][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_ao_4k] ([1] browsable assets)...
+[2019.09.07-16.58.55:814][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_ao_4k.rough_block_wall_ao_4k]
+[2019.09.07-16.58.55:814][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_ao_4k]
+[2019.09.07-16.58.55:839][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_ao_4k_Auto11D8DC87E4A0AC667FE4C3CB3F43D3F3C.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_ao_4k_Auto1.uasset'
+[2019.09.07-16.58.55:839][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_diff_4k] ([1] browsable assets)...
+[2019.09.07-16.58.55:846][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_diff_4k.rough_block_wall_diff_4k]
+[2019.09.07-16.58.55:847][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_diff_4k]
+[2019.09.07-16.58.56:706][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_diff_4k_Auto1F7F854FB445472A3CCCE6A807988C7F4.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_diff_4k_Auto1.uasset'
+[2019.09.07-16.58.56:707][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_disp_4k] ([1] browsable assets)...
+[2019.09.07-16.58.56:713][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_disp_4k.rough_block_wall_disp_4k]
+[2019.09.07-16.58.56:713][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_disp_4k]
+[2019.09.07-16.58.56:819][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_disp_4k_Auto1670EB2EA47923EB786979DB72621777E.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_disp_4k_Auto1.uasset'
+[2019.09.07-16.58.56:820][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_nor_4k] ([1] browsable assets)...
+[2019.09.07-16.58.56:828][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_nor_4k.rough_block_wall_nor_4k]
+[2019.09.07-16.58.56:828][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_nor_4k]
+[2019.09.07-16.58.57:515][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_nor_4k_Auto1CCE953BF46B7D94E53C3A2917D573AD8.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_nor_4k_Auto1.uasset'
+[2019.09.07-16.58.57:516][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_4k] ([1] browsable assets)...
+[2019.09.07-16.58.57:523][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_4k.rough_block_wall_rough_4k]
+[2019.09.07-16.58.57:523][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_4k]
+[2019.09.07-16.58.57:549][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_rough_4k_Auto122DA1BC04ABA8DA8004602A1AB6510C3.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_4k_Auto1.uasset'
+[2019.09.07-16.58.57:550][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_ao_4k] ([1] browsable assets)...
+[2019.09.07-16.58.57:557][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_ao_4k.rough_block_wall_rough_ao_4k]
+[2019.09.07-16.58.57:557][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_ao_4k]
+[2019.09.07-16.58.58:132][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_rough_ao_4k_AutC236135A40B9F4EFC35306B6C20FBF7D.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_ao_4k_Auto1.uasset'
+[2019.09.07-16.58.58:135][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_ao_4k] ([1] browsable assets)...
+[2019.09.07-16.58.58:141][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rusty_metal_4k_jpg/rusty_metal_ao_4k.rusty_metal_ao_4k]
+[2019.09.07-16.58.58:141][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_ao_4k]
+[2019.09.07-16.58.58:163][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_ao_4k_Auto14E727A414EFCC012DFEA3EB311123263.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rusty_metal_4k_jpg/rusty_metal_ao_4k_Auto1.uasset'
+[2019.09.07-16.58.58:165][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_diff_4k] ([1] browsable assets)...
+[2019.09.07-16.58.58:172][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rusty_metal_4k_jpg/rusty_metal_diff_4k.rusty_metal_diff_4k]
+[2019.09.07-16.58.58:172][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_diff_4k]
+[2019.09.07-16.58.58:661][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_diff_4k_Auto17EE2DB2E48581E8F954207B0844D6F3D.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rusty_metal_4k_jpg/rusty_metal_diff_4k_Auto1.uasset'
+[2019.09.07-16.58.58:663][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_disp_4k] ([1] browsable assets)...
+[2019.09.07-16.58.58:670][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rusty_metal_4k_jpg/rusty_metal_disp_4k.rusty_metal_disp_4k]
+[2019.09.07-16.58.58:670][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_disp_4k]
+[2019.09.07-16.58.58:689][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_disp_4k_Auto143DBB465499D4F1DF696B3B2194984EE.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rusty_metal_4k_jpg/rusty_metal_disp_4k_Auto1.uasset'
+[2019.09.07-16.58.58:690][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_nor_4k] ([1] browsable assets)...
+[2019.09.07-16.58.58:697][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rusty_metal_4k_jpg/rusty_metal_nor_4k.rusty_metal_nor_4k]
+[2019.09.07-16.58.58:697][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_nor_4k]
+[2019.09.07-16.59.00:751][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_nor_4k_Auto12F37411442D15D6F7FB75D82A98BDC07.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rusty_metal_4k_jpg/rusty_metal_nor_4k_Auto1.uasset'
+[2019.09.07-16.59.00:751][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_rough_4k] ([1] browsable assets)...
+[2019.09.07-16.59.00:758][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rusty_metal_4k_jpg/rusty_metal_rough_4k.rusty_metal_rough_4k]
+[2019.09.07-16.59.00:758][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_rough_4k]
+[2019.09.07-16.59.00:839][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_rough_4k_Auto13BFC200D497377AB84E1DAAA0B0A8E0F.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rusty_metal_4k_jpg/rusty_metal_rough_4k_Auto1.uasset'
+[2019.09.07-16.59.00:845][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_spec_4k] ([1] browsable assets)...
+[2019.09.07-16.59.00:852][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/rusty_metal_4k_jpg/rusty_metal_spec_4k.rusty_metal_spec_4k]
+[2019.09.07-16.59.00:852][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/rusty_metal_4k_jpg/rusty_metal_spec_4k]
+[2019.09.07-16.59.00:872][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_spec_4k_Auto1039ADE3447CB47210E3E2999AE8D7D52.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/rusty_metal_4k_jpg/rusty_metal_spec_4k_Auto1.uasset'
+[2019.09.07-16.59.00:873][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_ao_4k] ([1] browsable assets)...
+[2019.09.07-16.59.00:881][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_ao_4k.sandstone_blocks_08_ao_4k]
+[2019.09.07-16.59.00:881][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_ao_4k]
+[2019.09.07-16.59.00:903][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_ao_4k_Auto117CF687246527BFFB1DE8592453A83DF.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_ao_4k_Auto1.uasset'
+[2019.09.07-16.59.00:903][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_diff_4k] ([1] browsable assets)...
+[2019.09.07-16.59.00:910][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_diff_4k.sandstone_blocks_08_diff_4k]
+[2019.09.07-16.59.00:910][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_diff_4k]
+[2019.09.07-16.59.01:452][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_diff_4k_Auto35BB4BF7440CA635CD9557B8F38A9070.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_diff_4k_Auto1.uasset'
+[2019.09.07-16.59.01:452][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_disp_4k] ([1] browsable assets)...
+[2019.09.07-16.59.01:459][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_disp_4k.sandstone_blocks_08_disp_4k]
+[2019.09.07-16.59.01:459][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_disp_4k]
+[2019.09.07-16.59.01:478][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_disp_4k_AutoCC480E154111B0045AADF7A92E46B859.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_disp_4k_Auto1.uasset'
+[2019.09.07-16.59.01:479][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_nor_4k] ([1] browsable assets)...
+[2019.09.07-16.59.01:486][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_nor_4k.sandstone_blocks_08_nor_4k]
+[2019.09.07-16.59.01:487][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_nor_4k]
+[2019.09.07-16.59.03:082][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_nor_4k_Auto125E7E39A48D0876B26E3379C38B9938C.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_nor_4k_Auto1.uasset'
+[2019.09.07-16.59.03:084][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_rough_4k] ([1] browsable assets)...
+[2019.09.07-16.59.03:092][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_rough_4k.sandstone_blocks_08_rough_4k]
+[2019.09.07-16.59.03:092][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_rough_4k]
+[2019.09.07-16.59.03:151][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_rough_4k_Aut8A04F46E4B44BF8F84C854935AECD72C.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_rough_4k_Auto1.uasset'
+[2019.09.07-16.59.03:152][893]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_spec_4k] ([1] browsable assets)...
+[2019.09.07-16.59.03:157][893]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_spec_4k.sandstone_blocks_08_spec_4k]
+[2019.09.07-16.59.03:157][893]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_spec_4k]
+[2019.09.07-16.59.03:175][893]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_spec_4k_Auto331CE7A5476B0A4E3A844AA5F5F101D5.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_spec_4k_Auto1.uasset'
+[2019.09.07-16.59.03:177][893]LogFileHelpers: Auto-saving content packages took 20.287
+[2019.09.07-17.00.28:987][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2019.09.07-17.00.30:323][533]LogSlate: Window 'Delete Assets' being destroyed
+[2019.09.07-17.00.30:505][533]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2019.09.07-17.00.34:128][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_AO_4kD7224C68448D0FBE73358881281287F3.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_AO_4k.uasset'
+[2019.09.07-17.00.36:273][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_bump_4k12A6424B4C9E3AFD16232B80C0D8B924.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_bump_4k.uasset'
+[2019.09.07-17.00.40:387][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_diff_4k44FF1FE24413D287EB1CEBA77C6B4255.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_diff_4k.uasset'
+[2019.09.07-17.00.43:483][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_disp_4k7BA24C3F449B4CF39EC88DBE91B21371.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_disp_4k.uasset'
+[2019.09.07-17.00.47:560][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_Nor_4k66E99CFE4CADB594EEBD11B0329D01BF.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_Nor_4k.uasset'
+[2019.09.07-17.00.51:602][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_rough_4kD92B12ED40BBE8A585CD9EA12C46BB85.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_rough_4k.uasset'
+[2019.09.07-17.00.53:289][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/brown_mud_leaves_01_spec_4kD04B227648EAF730980E9F8D2F74563E.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_spec_4k.uasset'
+[2019.09.07-17.00.55:146][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_ao_4kC86E547C4C6E2B2E4D5B7C83EEABFDC4.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_ao_4k.uasset'
+[2019.09.07-17.00.57:192][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_bump_4k4C31FF644CFE169340AEBF8AD0A3C85F.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_bump_4k.uasset'
+[2019.09.07-17.01.00:935][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_diff_4kE10021644386926609A2C2BCA6A9252F.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_diff_4k.uasset'
+[2019.09.07-17.01.03:046][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_disp_4k32253E714A70F084FB11AEA98113D03B.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_disp_4k.uasset'
+[2019.09.07-17.01.06:610][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_nor_4kC202B388434EC992D5FC47B5695BFD02.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_nor_4k.uasset'
+[2019.09.07-17.01.09:501][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_rough_4kDD1658A74C518FE70F715D890F1F9BF5.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_rough_4k.uasset'
+[2019.09.07-17.01.10:961][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/green_rough_planks_spec_4k95C527394DE68F5E26E0C48259E93A83.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_spec_4k.uasset'
+[2019.09.07-17.01.13:678][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_AO_4kE3D43A4445CB3117C828F0B961086AE3.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/marble_01_4k_jpg/marble_01_AO_4k.uasset'
+[2019.09.07-17.01.17:435][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_diff_4kA2671E13473D29BEFF80F28F8B0E133E.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/marble_01_4k_jpg/marble_01_diff_4k.uasset'
+[2019.09.07-17.01.19:281][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_disp_4k0C4BBE66430F0D4993E995A1B44CA2E7.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/marble_01_4k_jpg/marble_01_disp_4k.uasset'
+[2019.09.07-17.01.20:851][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_nor_4k073232574CFAE8E6530B33B24A12F8FD.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/marble_01_4k_jpg/marble_01_nor_4k.uasset'
+[2019.09.07-17.01.21:923][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_rough_4kDCAF465249C08192381A858F47686686.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/marble_01_4k_jpg/marble_01_rough_4k.uasset'
+[2019.09.07-17.01.23:241][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/marble_01_spec_4k7CB10FEC4D66BF912F6AD2A2484F633F.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/marble_01_4k_jpg/marble_01_spec_4k.uasset'
+[2019.09.07-17.01.25:080][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_ao_4k1446E498449F9023A4032CAC8D539F81.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_ao_4k.uasset'
+[2019.09.07-17.01.28:508][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_diff_4k30E5FAC141D736F5FF41C89B9E634865.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_diff_4k.uasset'
+[2019.09.07-17.01.30:455][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_disp_4kE37DC82E4C4413DFEEF57A985AADB204.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_disp_4k.uasset'
+[2019.09.07-17.01.34:015][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_nor_4kCAA4E0D34BCCF54250FBAFB460BEDB0F.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_nor_4k.uasset'
+[2019.09.07-17.01.36:810][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_rough_4kD670E62B49ABF8F63EFCF7A88CD11A69.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_rough_4k.uasset'
+[2019.09.07-17.01.38:295][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/old_planks_02_spec_4k6C1E77154FC4488A8FB541A982FAFD02.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_spec_4k.uasset'
+[2019.09.07-17.01.40:218][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_ao_4kADAE83AA43C6727254B7F8A3338BDC49.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_ao_4k.uasset'
+[2019.09.07-17.01.43:946][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_diff_4k0F50C1A44A3E3C544455519C81CD41BE.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_diff_4k.uasset'
+[2019.09.07-17.01.46:708][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_disp_4kFD1AD5314B3929ECA395B5983B8B077E.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_disp_4k.uasset'
+[2019.09.07-17.01.51:326][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_nor_4kC599BFCE41120836623300997BE50435.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_nor_4k.uasset'
+[2019.09.07-17.01.55:111][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_rough_4k9B578EE74F52F84BE24205B34FEBE68A.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_4k.uasset'
+[2019.09.07-17.01.59:973][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/plaster_grey_04_rough_ao_4k92FB45E14D1FD407E8D7C5B5C93E75B3.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_ao_4k.uasset'
+[2019.09.07-17.02.03:411][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_ao_4k796C39A94FE06124B80658AD9EAC209B.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_ao_4k.uasset'
+[2019.09.07-17.02.07:737][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_diff_4k2D3B5BEC46F997C67225E7B3BD69A6A8.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_diff_4k.uasset'
+[2019.09.07-17.02.10:541][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_disp_4k90A127BD4733203317A53FBBCE60CC3E.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_disp_4k.uasset'
+[2019.09.07-17.02.15:398][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_nor_4k4982E8ED44F0E1F5171608914D4ACE10.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_nor_4k.uasset'
+[2019.09.07-17.02.18:884][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_rough_4k586B1F1C4D36941348F20CA438BB82E0.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_4k.uasset'
+[2019.09.07-17.02.23:098][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rough_block_wall_rough_ao_4kC25180C9426B5626577440AF6C5E4331.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_ao_4k.uasset'
+[2019.09.07-17.02.26:740][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_ao_4kF6F60B024CEF6C416B6803A58D3E36B7.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_ao_4k.uasset'
+[2019.09.07-17.02.30:673][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_diff_4kCFE104DE408CB53653E332B2F73AA171.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_diff_4k.uasset'
+[2019.09.07-17.02.32:956][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_disp_4kFE99D5144E21415FD73F1ABEA66D73A6.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_disp_4k.uasset'
+[2019.09.07-17.02.36:365][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_nor_4k47296A6B47F3BAF61528EAA348E9AD60.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_nor_4k.uasset'
+[2019.09.07-17.02.39:158][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_rough_4k857B306F4C51ED1DB0588C80A4F49261.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_rough_4k.uasset'
+[2019.09.07-17.02.40:746][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/rusty_metal_spec_4kB47352F3407D07A503080A84C6B7C9EE.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_spec_4k.uasset'
+[2019.09.07-17.02.42:414][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_ao_4k296572FE4E821737185B319DA7A79950.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_ao_4k.uasset'
+[2019.09.07-17.02.45:682][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_diff_4kB1F93DE143C06A4822D2D8B874DEC91D.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_diff_4k.uasset'
+[2019.09.07-17.02.47:596][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_disp_4k17BF1C5F41D6720F7FA3B2AD8DECA923.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_disp_4k.uasset'
+[2019.09.07-17.02.50:733][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_nor_4k43B08E3246DB4A1BF3ACB2807BDE3EE0.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_nor_4k.uasset'
+[2019.09.07-17.02.53:547][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_rough_4kBFA69ECA4C68748EA609389F98603964.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_rough_4k.uasset'
+[2019.09.07-17.02.55:294][769]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/sandstone_blocks_08_spec_4k67FB51C9484C4F185FC8809674B8048B.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_spec_4k.uasset'
+[2019.09.07-17.04.09:681][367]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content' is outside repository
+[2019.09.07-17.04.23:703][367]LogSlate: Window 'Submit Files' being destroyed
+[2019.09.07-17.04.44:274][367]LogSourceControl: commit successful: [master 66b1209] textury
+[2019.09.07-17.04.44:877][367]SourceControl: [master 66b1209] textury
+[2019.09.07-17.04.44:877][367]SourceControl:  50 files changed, 0 insertions(+), 0 deletions(-)
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_AO_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_Nor_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_bump_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_diff_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_disp_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_rough_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/brown_mud_leaves_01_4k_jpg/brown_mud_leaves_01_spec_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_ao_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_bump_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_diff_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_disp_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_nor_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_rough_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/green_rough_planks_4k_jpg/green_rough_planks_spec_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/marble_01_4k_jpg/marble_01_AO_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/marble_01_4k_jpg/marble_01_diff_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/marble_01_4k_jpg/marble_01_disp_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/marble_01_4k_jpg/marble_01_nor_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/marble_01_4k_jpg/marble_01_rough_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/marble_01_4k_jpg/marble_01_spec_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_ao_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_diff_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_disp_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_nor_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_rough_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/old_planks_02_4k_jpg/old_planks_02_spec_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_ao_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_diff_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_disp_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_nor_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/plaster_grey_04_4k_jpg/plaster_grey_04_rough_ao_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_ao_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_diff_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_disp_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_nor_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/rough_block_wall_4k_jpg/rough_block_wall_rough_ao_4k.uasset
+[2019.09.07-17.04.44:877][367]SourceControl:  create mode 100644 FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_ao_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_diff_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_disp_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_nor_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_rough_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/rusty_metal_4k_jpg/rusty_metal_spec_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_ao_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_diff_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_disp_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_nor_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_rough_4k.uasset
+[2019.09.07-17.04.44:878][367]SourceControl:  create mode 100644 FMH/Content/Materials/sandstone_blocks_08_4k_jpg/sandstone_blocks_08_spec_4k.uasset
+[2019.09.07-17.04.44:883][367]SourceControl: Commited [master 66b1209] textury.
