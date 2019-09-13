@@ -575,3 +575,113 @@ Please see Output Log for details.
 [2019.09.13-18.03.58:900][ 86]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2019.09.13-18.03.58:900][ 86]SourceControl:  create mode 100644 FMH/Content/Hdris/Dr__Strange_1080P_H264_DD5_1_earnest54.uasset
 [2019.09.13-18.03.58:904][ 86]SourceControl: Commited [master 364a79f] dr strange.
+[2019.09.13-18.04.58:891][471]LogAssetEditorManager: Opening Asset editor for FileMediaSource /Game/Hdris/Dr__Strange_1080P_H264_DD5_1_earnest54.Dr__Strange_1080P_H264_DD5_1_earnest54
+[2019.09.13-18.05.02:150][785]LogSlate: Window 'Dr__Strange_1080P_H264_DD5_1_earnest54' being destroyed
+[2019.09.13-18.05.02:154][785]LogSlate: Window 'Dr__Strange_1080P_H264_DD5_1_earnest54' being destroyed
+[2019.09.13-18.08.29:731][953]LogWindows: LaunchURL http://docs.unrealengine.com/latest/POL/Shared/Editor/FbxErrors/index.html?utm_source=editor&utm_medium=docs&utm_campaign=msg_log
+[2019.09.13-18.09.27:224][861]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2019.09.13-18.09.28:091][861]LogSlate: FSceneViewport::OnFocusLost() reason 5
+[2019.09.13-18.09.29:849][987]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.09.13-18.09.31:132][121]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.13-18.10.23:034][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.13-18.11.13:605][772]LogSlate: Window 'Create Media Player' being destroyed
+[2019.09.13-18.11.27:960][519]LogAssetEditorManager: Opening Asset editor for MediaPlayer /Game/Hdris/NewMediaPlayer.NewMediaPlayer
+[2019.09.13-18.11.28:029][519]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2019.09.13-18.11.28:309][519]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2019.09.13-18.12.17:877][ 98]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.12.17:881][ 98]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.13.19:602][187]LogUObjectHash: Compacting FUObjectHashTables data took   8.04ms
+[2019.09.13-18.13.19:603][187]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.275
+[2019.09.13-18.13.19:608][187]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Hdris/NewMediaPlayer_Video] ([1] browsable assets)...
+[2019.09.13-18.13.19:633][187]OBJ SavePackage:     Rendered thumbnail for [MediaTexture /Game/Hdris/NewMediaPlayer_Video.NewMediaPlayer_Video]
+[2019.09.13-18.13.19:633][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hdris/NewMediaPlayer_Video]
+[2019.09.13-18.13.19:679][187]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/NewMediaPlayer_Video_Auto178C210D0442386C187C06C83EA47D2CE.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Hdris/NewMediaPlayer_Video_Auto1.uasset'
+[2019.09.13-18.13.19:680][187]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Hdris/NewMediaPlayer] ([1] browsable assets)...
+[2019.09.13-18.13.19:680][187]OBJ SavePackage: Finished generating thumbnails for package [/Game/Hdris/NewMediaPlayer]
+[2019.09.13-18.13.19:680][187]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hdris/NewMediaPlayer" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Hdris/NewMediaPlayer_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.09.13-18.13.19:691][187]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/NewMediaPlayer_Auto1B9A228384123534E0D8DF085CA814CB9.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/Autosaves/Game/Hdris/NewMediaPlayer_Auto1.uasset'
+[2019.09.13-18.13.19:692][187]LogFileHelpers: Auto-saving content packages took 0.086
+[2019.09.13-18.14.06:680][363]LogSlate: Window 'Create Media Player' being destroyed
+[2019.09.13-18.14.07:958][515]LogAssetEditorManager: Opening Asset editor for MediaPlayer /Game/Hdris/NewMediaPlayer.NewMediaPlayer
+[2019.09.13-18.14.07:972][515]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2019.09.13-18.14.08:091][515]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2019.09.13-18.14.18:248][697]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.14.18:252][697]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.14.37:897][407]LogSlate: Window 'Create Media Player' being destroyed
+[2019.09.13-18.14.40:005][656]LogAssetEditorManager: Opening Asset editor for MediaPlayer /Game/Hdris/NewMediaPlayer.NewMediaPlayer
+[2019.09.13-18.14.40:022][656]LogMaterial: Display: Missing cached shader map for material Material_2, compiling. 
+[2019.09.13-18.14.40:140][656]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2019.09.13-18.14.52:701][937]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.14.52:705][937]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.14.54:234][115]LogAssetEditorManager: Opening Asset editor for MediaPlayer /Game/Hdris/NewMediaPlayer.NewMediaPlayer
+[2019.09.13-18.14.54:247][115]LogMaterial: Display: Missing cached shader map for material Material_3, compiling. 
+[2019.09.13-18.14.54:331][115]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2019.09.13-18.14.58:915][587]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.14.58:918][587]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.14.59:994][710]LogAssetEditorManager: Opening Asset editor for MediaTexture /Game/Hdris/NewMediaPlayer_Video.NewMediaPlayer_Video
+[2019.09.13-18.15.00:194][710]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0393 seconds. Added 1 classes and 2 folders.
+[2019.09.13-18.15.05:490][ 93]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.13-18.15.05:599][106]LogSlate: Window 'NewMediaPlayer_Video' being destroyed
+[2019.09.13-18.15.05:602][106]LogSlate: Window 'NewMediaPlayer_Video' being destroyed
+[2019.09.13-18.15.08:102][388]LogAssetEditorManager: Opening Asset editor for MediaPlayer /Game/Hdris/NewMediaPlayer.NewMediaPlayer
+[2019.09.13-18.15.08:116][388]LogMaterial: Display: Missing cached shader map for material Material_4, compiling. 
+[2019.09.13-18.15.08:203][388]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2019.09.13-18.15.12:126][836]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.15.12:129][836]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.15.14:222][ 29]LogSlate: Window 'Message Log' being destroyed
+[2019.09.13-18.15.14:226][ 29]LogSlate: Window 'Message Log' being destroyed
+[2019.09.13-18.15.15:659][178]LogAssetEditorManager: Opening Asset editor for MediaPlayer /Game/Hdris/NewMediaPlayer.NewMediaPlayer
+[2019.09.13-18.15.15:673][178]LogMaterial: Display: Missing cached shader map for material Material_5, compiling. 
+[2019.09.13-18.15.15:771][178]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2019.09.13-18.16.14:935][813]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.16.14:939][813]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.16.26:064][138]LogAssetEditorManager: Opening Asset editor for MediaPlayer /Game/Hdris/NewMediaPlayer.NewMediaPlayer
+[2019.09.13-18.16.26:078][138]LogMaterial: Display: Missing cached shader map for material Material_6, compiling. 
+[2019.09.13-18.16.26:174][138]LogContentBrowser: Verbose: The majority of assets in the view are of type: FileMediaSource
+[2019.09.13-18.18.08:578][456]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.18.08:582][456]LogSlate: Window 'NewMediaPlayer' being destroyed
+[2019.09.13-18.19.11:052][572]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 D:\Moje Pliki\Obrazki\test3.fbx)
+[2019.09.13-18.19.11:059][572]LogFbx: Error: Call to FbxImporter::Initialize() failed.
+[2019.09.13-18.19.11:059][572]LogFbx: Warning: Error returned: Unexpected file type
+[2019.09.13-18.19.11:061][572]FBXImport: Warning: Can't detect import type. No mesh is found or animation track. 
+[2019.09.13-18.19.27:329][572]LogSlate: Window 'Message' being destroyed
+[2019.09.13-18.19.27:332][572]LogAssetTools: Warning: Failed to import 'D:\Moje Pliki\Obrazki\test3.fbx'. Failed to create asset '/Game/Hdris/test3'.
+Please see Output Log for details.
+[2019.09.13-18.19.28:749][741]LogSlate: Window 'Message Log' being destroyed
+[2019.09.13-18.19.28:752][741]LogSlate: Window 'Message Log' being destroyed
+[2019.09.13-18.22.02:233][387]LogHttp: Warning: 000002A309499D00: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B28D43745-4BDA-6353-92B1-23A1CE67506E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=4d9826314e059faf7d4a36867ae01b14%7C216e8c25e0664a708e251b41d040857a%7Cbed2c9c3-0ec4-45a7-83ab-f7948813a1e1&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: request failed, libcurl error: 0 (No error)
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: libcurl info message cache 0 (Found bundle for host datarouter.ol.epicgames.com: 0x2a35ab67f70 [can pipeline])
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: libcurl info message cache 1 (Re-using existing connection! (#11) with host datarouter.ol.epicgames.com)
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: libcurl info message cache 2 (Connected to datarouter.ol.epicgames.com (54.83.181.125) port 443 (#11))
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: libcurl info message cache 3 (We are completely uploaded and fine)
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: libcurl info message cache 4 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: libcurl info message cache 5 (Connection died, retrying a fresh connect)
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: libcurl info message cache 6 (necessary data rewind wasn't possible)
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: libcurl info message cache 7 (Closing connection 11)
+[2019.09.13-18.22.02:250][387]LogHttp: Warning: 000002A309499D00: libcurl info message cache 8 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2019.09.13-18.22.02:566][388]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B28D43745-4BDA-6353-92B1-23A1CE67506E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.0-8386587%2B%2B%2BUE4%2BRelease-4.23&UserID=4d9826314e059faf7d4a36867ae01b14%7C216e8c25e0664a708e251b41d040857a%7Cbed2c9c3-0ec4-45a7-83ab-f7948813a1e1&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2019.09.13-18.34.14:458][647]LogAssetTools: Warning: Failed to import 'D:\Moje Pliki\OneDrive\teścior.data'. Unknown extension 'data'.
+[2019.09.13-18.37.10:163][613]LogAssetTools: Warning: Failed to import 'D:\Moje Pliki\OneDrive\teścior.tif'. Unknown extension 'tif'.
+[2019.09.13-18.38.31:932][779]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\OneDrive\teścior.bmp)
+[2019.09.13-18.38.48:248][779]LogSlate: Window 'Message' being destroyed
+[2019.09.13-18.38.48:558][779]Error: Texture import failed
+[2019.09.13-18.38.51:110][779]LogSlate: Window 'Message' being destroyed
+[2019.09.13-18.38.51:179][779]LogAssetTools: Warning: Failed to import 'D:\Moje Pliki\OneDrive\teścior.bmp'. Failed to create asset '/Game/Hdris/teścior'.
+Please see Output Log for details.
+[2019.09.13-18.41.35:294][649]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 D:\Moje Pliki\OneDrive\teścior.bmp)
+[2019.09.13-18.41.37:112][649]LogTexture: Display: Building textures: teścior (AutoDXT, 8192X8192)
+[2019.09.13-18.42.07:301][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hdris/NewMediaPlayer_Video" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Hdris/NewMediaPlayer_Video.uasset" SILENT=true
+[2019.09.13-18.42.07:595][729]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/NewMediaPlayer_VideoCC1EA2FD4134BCBDC21359B413EF0051.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Hdris/NewMediaPlayer_Video.uasset'
+[2019.09.13-18.42.08:124][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hdris/NewMediaPlayer" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Hdris/NewMediaPlayer.uasset" SILENT=true
+[2019.09.13-18.42.08:132][729]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/NewMediaPlayer976D9FCC4F46E6ED4830F2967E5B9287.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Hdris/NewMediaPlayer.uasset'
+[2019.09.13-18.42.08:403][729]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Hdris/teścior" FILE="../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Hdris/teścior.uasset" SILENT=true
+[2019.09.13-18.42.11:078][729]LogSavePackage: Moving '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Saved/teścior0FE2F91846AC2AB9702730B7E73DBA07.tmp' to '../../../../GitHubEU4/Weekly-Game-Jam---Week-114/FMH/Content/Hdris/teścior.uasset'
+[2019.09.13-18.42.14:197][ 29]SourceControl: fatal: D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content: 'D:/Moje Pliki/EpicGames/UE_4.23/Engine/Content' is outside repository
+[2019.09.13-18.42.19:819][ 29]LogSlate: Window 'Submit Files' being destroyed
+[2019.09.13-18.42.21:186][ 29]LogSourceControl: commit successful: [master 4e0a309] aaa
+[2019.09.13-18.42.21:242][ 29]SourceControl: [master 4e0a309] aaa
+[2019.09.13-18.42.21:242][ 29]SourceControl:  2 files changed, 0 insertions(+), 0 deletions(-)
+[2019.09.13-18.42.21:242][ 29]SourceControl:  create mode 100644 FMH/Content/Hdris/NewMediaPlayer.uasset
+[2019.09.13-18.42.21:242][ 29]SourceControl:  create mode 100644 FMH/Content/Hdris/NewMediaPlayer_Video.uasset
+[2019.09.13-18.42.21:247][ 29]SourceControl: Commited [master 4e0a309] aaa.
